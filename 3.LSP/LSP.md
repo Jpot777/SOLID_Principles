@@ -14,20 +14,20 @@ public class Character : MonoBehaviour
     }
 }
 
-// 플레이어 캐릭터를 나타내는 클래스
+// 플레이어 캐릭터 클래스
 public class Player : Character
 {
-    // 플레이어 캐릭터의 이동 메서드
+    // 플레이어 캐릭터 이동 메서드
     public override void Move(Vector3 direction)
     {
         // 플레이어 캐릭터가 이동하는 코드
     }
 }
 
-// 몬스터 캐릭터를 나타내는 클래스
+// 몬스터 캐릭터 클래스
 public class Monster : Character
 {
-    // 몬스터 캐릭터의 이동 메서드
+    // 몬스터 캐릭터 이동 메서드
     public override void Move(Vector3 direction)
     {
         // 몬스터 캐릭터가 이동하는 코드
@@ -45,16 +45,16 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        // 1. Player 클래스의 인스턴스를 Character 타입의 변수에 할당
+        // 1. Player 클래스의 인스턴스를 Character 타입 변수에 할당
         character = new Player();
 
-        // 2. 몬스터 클래스의 인스턴스를 Character 타입의 변수에 할당
+        // 2. 몬스터 클래스의 인스턴스를 Character 타입 변수에 할당
         // character = new Monster();
     }
 
     private void Update()
     {
-        // 이동 방향을 정의
+        // 이동 방향 설정
         Vector3 direction = new Vector3(1f, 0f, 0f);
 
         // 캐릭터 이동
