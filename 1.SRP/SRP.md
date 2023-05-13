@@ -12,8 +12,8 @@ public class EnemyController : MonoBehaviour
     // 적 캐릭터의 이동과 회전을 담당하는 메서드
     public void MoveAndRotate()
     {
-    // 1. 적 캐릭터를 이동시키는 코드
-    // 2. 적 캐릭터를 회전시키는 코드
+        // 1. 적 캐릭터를 이동시키는 코드
+        // 2. 적 캐릭터를 회전시키는 코드
     }
 
     // 적 캐릭터의 공격을 담당하는 메서드
