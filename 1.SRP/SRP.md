@@ -33,3 +33,8 @@ public class EnemyAI : MonoBehaviour
     // 적 캐릭터의 AI를 구현하는 코드
     }
 }
+```
+
+적 캐릭터를 제어하는 코드와 적 캐릭터의 AI를 구현하는 코드를 한 클래스에서 처리하면 SRP를 위반하게 된다!
+따라서, 적 캐릭터를 제어하는 코드와 적 캐릭터의 AI를 구현하는 코드를 각각의 클래스로 분리하여 SRP를 지킬 수 있다.
+위의 코드에서는 적 캐릭터를 제어하는 <span style="color:brown">EnemyController</span> 클래스와 적 캐릭터의 AI를 구현하는 <span style="color:brown">EnemyAI</span> 클래스를 각각의 클래스로 분리하여 SRP를 지키고 있다!
